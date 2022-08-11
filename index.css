@@ -29,3 +29,16 @@ body {
   font-weight: 900;
 }
 
+.alpha-num-grid {
+  display: grid;
+  grid-template-columns: repeat(7, min-content);
+  gap: 1em;
+
+  list-style-type: none;
+}
+
+.alpha-num-grid > li {
+  font-size: 2rem;
+  justify-self: center;
+}
+
