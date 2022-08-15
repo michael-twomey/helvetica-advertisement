@@ -13,8 +13,10 @@ html {
   font-family: Helvet;
 }
 
-body {
-  padding: 1em 5em;
+#root {
+  display: grid;
+  row-gap: 1em;
+  margin-top: 1em;
 }
 
 .sect-a {
@@ -50,7 +52,7 @@ body {
 .letter-a {
   grid-column: 1 / 2;
   grid-row: 1 / 2;
-  margin-right: 0.04em;
+  margin: -0.011em 0.04em -0.231em 0;
 
   color: #E91E63;
   font-size: 20rem;
@@ -80,3 +82,21 @@ body {
   justify-self: center;
 }
 
+.sect-b {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 400px);
+  justify-content: center;
+  background-color: #FFFF00;
+  margin-bottom: 1em;
+}
+
+.letter-b {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+  margin: -0.011em 0.04em -0.231em 0;
+
+  color: #FFFFFF;
+  font-size: 20rem;
+  font-weight: 900;
+  text-align: center;
+}
