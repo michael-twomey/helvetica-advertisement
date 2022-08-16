@@ -30,7 +30,7 @@ html {
   justify-content: center;
 }
 
-.word-grid {
+.word-grid-a {
   display: grid;
   grid-template-columns: 226.24px;
   grid-template-rows: repeat(5, min-content);
@@ -39,7 +39,7 @@ html {
   list-style-type: none;
 }
 
-.word-grid li {
+.word-grid-a li {
   font-size: 1.5rem;
   font-weight: 500;
 }
@@ -83,6 +83,9 @@ html {
 }
 
 .sect-b {
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
+
   display: grid;
   grid-template-columns: repeat(auto-fit, 400px);
   justify-content: center;
@@ -91,7 +94,7 @@ html {
 }
 
 .letter-b {
-  grid-column: 1 / 2;
+  grid-column: 2 / 3;
   grid-row: 1 / 2;
   margin: -0.011em 0.04em -0.231em 0;
 
@@ -99,4 +102,33 @@ html {
   font-size: 20rem;
   font-weight: 900;
   text-align: center;
+}
+
+.sect-b-overlay {
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 400px);
+  justify-content: center;
+}
+
+.word-grid-b {
+  display: grid;
+  grid-template-rows: repeat(5, 1fr);
+  padding: 0.975em 7.65em 0.6em 86.88px;
+
+  grid-column: 1 / 3;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  gap: 1em;
+  list-style-type: none;
+}
+
+.row > li {
+  font-size: calc(0.5rem + 1.2vw);
+  font-weight: 500;
 }
