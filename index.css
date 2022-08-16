@@ -42,6 +42,7 @@ html {
 .word-grid-a li {
   font-size: 1.5rem;
   font-weight: 500;
+  width: max-content;
 }
 
 .right-col {
@@ -131,4 +132,59 @@ html {
 .row > li {
   font-size: calc(0.5rem + 1.2vw);
   font-weight: 500;
+}
+
+.sect-c {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 400px);
+  justify-content: center;
+  margin-top: -0.63em;
+}
+
+.word-grid-c {
+  display: grid;
+  grid-template-columns: 226.24px;
+  grid-template-rows: repeat(5, min-content);
+  row-gap: 1.25em;
+  margin-top: 0.7em;
+  list-style-type: none;
+}
+
+.word-grid-c li {
+  font-size: 1.5rem;
+  font-weight: 500;
+  width: max-content;
+}
+
+.letter-c {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+  margin: -0.011em 0.04em -0.231em 0;
+
+  color: #1565C0;
+  font-size: 20rem;
+  font-weight: 900;
+  text-align: center;
+}
+
+.alpha-sym-grid {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+
+  display: grid;
+  grid-template-columns: repeat(7, min-content);
+  grid-template-rows: repeat(5, min-content);
+  column-gap: 0.99em;
+  row-gap: 1.25em;
+  justify-content: center;
+  height: min-content;
+  margin-top: 0.7em;
+  
+  list-style-type: none;
+}
+
+.alpha-sym-grid > li {
+  font-size: 1.5rem;
+  font-weight: 500;
+  justify-self: center;
 }
