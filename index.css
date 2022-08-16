@@ -34,8 +34,8 @@ html {
   display: grid;
   grid-template-columns: 226.24px;
   grid-template-rows: repeat(5, min-content);
-  row-gap: 0.75em;
-  margin-top: 2.7em;
+  row-gap: 0.9em;
+  margin-top: 2.25em;
   list-style-type: none;
 }
 
@@ -68,11 +68,11 @@ html {
   display: grid;
   grid-template-columns: repeat(7, min-content);
   grid-template-rows: repeat(5, min-content);
-  column-gap: 0.6em;
-  row-gap: 0.75em;
+  column-gap: 0.63em;
+  row-gap: 0.9em;
   justify-content: center;
   height: min-content;
-  margin-top: 2.7em;
+  margin-top: 2.25em;
   
   list-style-type: none;
 }
