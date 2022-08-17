@@ -11,7 +11,8 @@
 
 html {
   font-family: Helvet;
-}
+  overflow: hidden;
+ }
 
 #root {
   display: grid;
@@ -186,4 +187,10 @@ html {
   font-size: 1.5rem;
   font-weight: 500;
   justify-self: center;
+}
+
+@media (max-width: 500px) {
+  .left-col {
+    display: none;
+  }
 }
