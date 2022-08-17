@@ -67,3 +67,9 @@
   font-weight: 500;
   justify-self: center;
 }
+
+@media (max-width: 500px) {
+  .left-col {
+    display: none;
+  }
+}

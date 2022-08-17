@@ -11,17 +11,10 @@
 
 html {
   font-family: Helvet;
-  overflow: hidden;
  }
 
 #root {
   display: grid;
   row-gap: 1em;
   margin-top: 1em;
-}
-
-@media (max-width: 500px) {
-  .left-col {
-    display: none;
-  }
 }
