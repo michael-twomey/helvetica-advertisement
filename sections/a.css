@@ -1,0 +1,69 @@
+.sect-a {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 300px);
+  justify-content: center;
+}
+
+.left-col {
+  display: grid;
+  justify-content: center;
+}
+
+.word-grid-a {
+  display: grid;
+  /* 
+    226.24px equals width of the letter 'A' at 20rems with its additional margin-right.
+    This width is needed for word-grid-a to properly center the content 
+    for the 2 columns in this section.
+  */
+  grid-template-columns: 226.24px; 
+  grid-template-rows: repeat(5, min-content);
+  row-gap: 0.9em;
+  margin-top: 2.25em;
+
+  list-style-type: none;
+}
+
+.word-grid-a li {
+  font-size: 1.5rem;
+  font-weight: 500;
+  width: max-content;
+}
+
+.right-col {
+  display: grid;
+  justify-content: center;
+}
+
+.letter-a {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+  margin: -0.011em 0.04em -0.231em 0;
+  text-align: center;
+
+  color: #E91E63;
+  font-size: 20rem;
+  font-weight: 900;
+}
+
+.alpha-num-grid {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+
+  display: grid;
+  grid-template-columns: repeat(7, min-content);
+  grid-template-rows: repeat(5, min-content);
+  column-gap: 0.63em;
+  row-gap: 0.9em;
+  justify-content: center;
+  height: min-content;
+  margin-top: 2.25em;
+  
+  list-style-type: none;
+}
+
+.alpha-num-grid > li {
+  font-size: 1.5rem;
+  font-weight: 500;
+  justify-self: center;
+}
