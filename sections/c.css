@@ -29,6 +29,7 @@
 .letter-c {
   grid-column: 1 / 2;
   grid-row: 1 / 2;
+  height: 210px;
   margin: -0.08em 0.04em 0 0;
   text-align: center;
 
