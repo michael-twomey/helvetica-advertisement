@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, 300px);
   justify-content: center;
-  margin-top: -0.63em;
+  margin-top: -0.8em;
 }
 
 .word-grid-c {
