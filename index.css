@@ -1,16 +1,10 @@
-@font-face {
-  font-family: Helvet;
-  src: url('./fonts/Helvetica.ttf')
-}
-
 * {
-  box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
 html {
-  font-family: Helvet;
+  font-family: 'Helvetica';
  }
 
 #root {

@@ -5,7 +5,7 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, 300px);
   justify-content: center;
-  margin-bottom: 1em;
+  height: 218px;
   background-color: #FFFF00;
 }
 
@@ -17,7 +17,7 @@
   font-size: 20rem;
   font-weight: 900;
   
-  margin: -0.011em 0.04em -0.231em 0;
+  margin-top: -0.235em;
   text-align: center;
 }
 
@@ -28,19 +28,21 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, 300px);
   justify-content: center;
+  height: 243px;
 }
 
 .word-grid-b {
   display: grid;
   grid-template-rows: repeat(5, 1fr);
   grid-column: 1 / 3;
-  padding: 0.975em 4.55em 0.625em 36.88px;
+  height: 217px;
+  padding: 0.4em 4.7em 0 36.88px;
 }
 
 .row {
   display: flex;
   justify-content: space-between;
-  gap: 0.85em;
+  gap: 0.575em;
   list-style-type: none;
 }
 
