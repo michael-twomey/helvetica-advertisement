@@ -18,7 +18,7 @@
   */
   grid-template-columns: 226.24px; 
   grid-template-rows: repeat(5, min-content);
-  row-gap: 0.9em;
+  row-gap: 0.75em;
   margin-top: 2.25em;
 
   list-style-type: none;
@@ -38,9 +38,9 @@
 .letter-a {
   grid-column: 1 / 2;
   grid-row: 1 / 2;
-  margin: -0.055em 0.04em -0.31em 0;
   text-align: center;
-
+  margin-top: -0.15em;
+  margin-bottom: -0.2em;
   color: #E91E63;
   font-size: 20rem;
   font-weight: 900;
@@ -53,8 +53,8 @@
   display: grid;
   grid-template-columns: repeat(7, min-content);
   grid-template-rows: repeat(5, min-content);
-  column-gap: 0.63em;
-  row-gap: 0.9em;
+  column-gap: 0.6em;
+  row-gap: 0.75em;
   justify-content: center;
   height: min-content;
   margin-top: 2.25em;
@@ -68,7 +68,7 @@
   justify-self: center;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
   .left-col {
     display: none;
   }
