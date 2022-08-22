@@ -12,11 +12,11 @@
 .word-grid-a {
   display: grid;
   /* 
-    226.24px equals width of the letter 'A' at 20rems with its additional margin-right.
+    231.09px equals width of the letter 'A' at 20rems.
     This width is needed for word-grid-a to properly center the content 
     for the 2 columns in this section.
   */
-  grid-template-columns: 226.24px; 
+  grid-template-columns: 231.09px; 
   grid-template-rows: repeat(5, min-content);
   row-gap: 0.75em;
   margin-top: 2.25em;
