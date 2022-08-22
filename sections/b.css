@@ -7,8 +7,8 @@
 }
 
 .sect-b-underlay {
-  grid-column: 1 / 2;
-  grid-row: 2 / 3;
+  grid-column: 1 / 3;
+  grid-row: 1 / 2;
   display: grid;
   grid-template-columns: repeat(auto-fit, 300px);
   justify-content: center;
@@ -39,7 +39,7 @@
   34.455px lines up the left edge of word-grid-a with word-grid-b.
   [300px (width of column) - 231.09px (width text container)] / 2 = 34.455px
   */
-  padding: 0.4em 4.7em 0 34.455px;
+  padding: 0.72em 4.7em 0 34.455px;
   height: 218px;
   width: 498px;
 }
